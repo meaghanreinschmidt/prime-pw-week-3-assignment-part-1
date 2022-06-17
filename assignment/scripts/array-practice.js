@@ -102,7 +102,6 @@ console.log(stringFavFoods);
 // OR
 console.log(favFoods.join(' and '));
 
-
 // 4.h (STRETCH) TODO: Make a new array that combines 
 //     the favorite foods array with the animals array.
 //     Then log the new array.
