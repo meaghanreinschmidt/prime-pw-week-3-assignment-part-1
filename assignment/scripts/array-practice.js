@@ -90,8 +90,8 @@ console.log('The food items are now', favFoods);
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
-favFoods.sort();
-favFoods.reverse();
+favFoods.sort().reverse();
+
 console.log(favFoods);
 
 // 4.g (STRETCH) TODO: Convert your array to a string
@@ -107,6 +107,7 @@ console.log(favFoods.join(' and '));
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+
 complexArray = animalArray.concat(favFoods);
 console.log(complexArray); 
 // OR
